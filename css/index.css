@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+/********HEADER*******/
+.header {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header img {
+  width: 41px;
+  height: 41px;
+}
+.navigation ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navigation ul li {
+  display: flex;
+  margin: 5px;
+}
+.black-letter {
+  color: black;
+  font-weight: bolder;
+}
+.gray-letter {
+  color: #b8becd;
+}
+.navigation ul li a {
+  text-decoration: none;
+}
+.btn-underline {
+  /* width: 132px;
+  height: 44px; */
+  color: #fb8f1d;
+  background: #e5e5e5;
+  padding: 10px 50px;
+  border: 1px solid #fb8f1d;
+  border-radius: 8px;
+}
+.btn-fill {
+  color: white;
+  padding: 10px 50px;
+  background: #fb8f1d;
+  border-radius: 8px;
+}
+/********SECTION ONE*********/
+.section-one {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.holiday-finder {
+  position: relative;
+}
+.holiday-finder img {
+  width: 20.05px;
+  height: 20px;
+}
+.holiday-finder .element-1 {
+  position: absolute;
+  left: 71.06%;
+  right: 57.68%;
+  top: 3.94%;
+  bottom: 95.71%;
+}
+.holiday-finder .element-2 {
+  position: absolute;
+  left: -10%;
+  right: 95%;
+  top: 50%;
+  bottom: 90.69%;
+}
+.holiday-finder .element-3 {
+  position: absolute;
+  left: 75%;
+  right: 53%;
+  top: 100%;
+  bottom: 10%;
+}
+.holiday-finder h1 {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+.holiday-finder p {
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.holiday-finder hr {
+  margin-bottom: 20px;
+  width: 15px;
+}
+.holiday-finder input {
+  padding-left: 10px;
+  margin-bottom: 25px;
+  border: 0.8px solid #afb0b9;
+  border-radius: 6px;
+  width: 507px;
+  height: 55px;
+}
+.image-trip img {
+  margin-top: 25px;
+  width: 500px;
+  height: 500px;
+}
+/******SECTION TWO******/
+.section-two {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.image-globe img {
+  width: 500px;
+  height: 500px;
+}
+.text-way-to-explore h2 {
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+.text-way-to-explore {
+  position: relative;
+  margin-top: -50px;
+  width: 481px;
+}
+.element-cross {
+  width: 20.05px;
+  height: 20px;
+  position: absolute;
+  left: -10%;
+  top: -55%;
+  transform: rotate(7.49deg);
+}
+.element-circle {
+  width: 20.05px;
+  height: 20px;
+  position: absolute;
+  left: 70%;
+  top: 85%;
+}
+.text-way-to-explore p {
+  font-size: 17px;
+  line-height: 30px;
+  color: #7d7987;
+  mix-blend-mode: normal;
+  margin-bottom: 40px;
+}
