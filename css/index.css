@@ -30,7 +30,7 @@ html {
 }
 .navigation ul li {
   display: flex;
-  margin: 5px;
+  margin: 7px;
 }
 .black-letter {
   color: black;
@@ -159,4 +159,257 @@ html {
   color: #7d7987;
   mix-blend-mode: normal;
   margin-bottom: 40px;
+}
+/*********SECTION THREE********/
+.section-three {
+  margin-top: 70px;
+}
+.featured-destinations {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.featured-destinations h3 {
+  font-size: 36px;
+}
+.featured-destinations p {
+  font-size: 17px;
+  color: #fb8f1d;
+  line-height: 40px;
+}
+.images-destinations {
+  display: flex;
+  justify-content: space-between;
+}
+.images-destinations img {
+  border-radius: 10px;
+  width: 261px;
+  height: 337px;
+  object-fit: cover;
+}
+.rectangule-country {
+  position: relative;
+}
+.rectangule {
+  padding: 15px;
+  border-radius: 10px 10px 0px;
+  background-color: white;
+}
+.rectangule-one {
+  position: absolute;
+  left: -1%;
+  bottom: 0px;
+}
+.rectangule-country span p {
+  font-weight: bolder;
+}
+.rectangule-two {
+  position: absolute;
+  left: 25%;
+  bottom: 0px;
+}
+.rectangule-three {
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+}
+.rectangule-four {
+  position: absolute;
+  left: 75%;
+  bottom: 0px;
+}
+.section-three {
+  position: relative;
+}
+.section-three .ele-one,
+.ele-two,
+.ele-three {
+  width: 20.05px;
+  height: 20px;
+}
+.section-three .ele-one {
+  position: absolute;
+  left: -8%;
+  top: 60%;
+}
+.section-three .ele-two {
+  position: absolute;
+  left: 80%;
+  top: -5%;
+}
+.section-three .ele-three {
+  position: absolute;
+  left: 45%;
+  top: 105%;
+}
+/*****SECTION FOUR*****/
+.section-four {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.thousand-sunny h3 {
+  width: 65%;
+  font-size: 32px;
+  line-height: 50px;
+  margin-bottom: 15px;
+}
+.thousand-sunny p {
+  width: 75%;
+  color: #7d7987;
+  font-size: 17px;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+.image-thousand-3 img {
+  width: 550px;
+  height: 450px;
+}
+/********SECTION FIVE******/
+.section-five {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h4 {
+  font-size: 36px;
+  line-height: 50px;
+}
+.testimonials img {
+  margin-right: 10px;
+  height: 23.95px;
+  width: 25.12px;
+}
+.testimonials p {
+  width: 70%;
+  font-size: 25px;
+  line-height: 36px;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+.testimonials h5 {
+  font-size: 22px;
+}
+.testimonials h6 {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 18px;
+  line-height: 30px;
+}
+.image-testimonials img {
+  width: 384px;
+  height: 491px;
+}
+/*****SECTION SIX******/
+.section-six {
+  position: relative;
+  margin-top: 80px;
+}
+.blog {
+  width: 266px;
+  height: 446px;
+}
+.blog a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 28px;
+  color: #fb8f1d;
+}
+.title-post {
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 30px;
+}
+.description {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  color: #7d7987;
+
+  margin-bottom: 15px;
+}
+.images-destinations {
+  display: flex;
+  justify-content: space-between;
+}
+.circle-one,
+.circle-two,
+.circle-three {
+  width: 20.05px;
+  height: 20px;
+}
+.circle-one {
+  position: absolute;
+  top: -10%;
+  bottom: 80%;
+  left: 35%;
+}
+.circle-two {
+  position: absolute;
+  top: 83%;
+  left: -7%;
+}
+.circle-three {
+  position: absolute;
+  bottom: -25%;
+  left: 65%;
+}
+/******FOOTER*******/
+footer {
+  padding: 50px 0px;
+  margin-top: 200px;
+  background-color: #e5e5e5;
+}
+.footer-one {
+  width: 30%;
+}
+.footer-one img {
+  width: 44px;
+  height: 44px;
+  margin-bottom: 20px;
+}
+.footer-one p {
+  margin-bottom: 20px;
+  color: rgba(132, 132, 132, 1);
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 28px;
+}
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-two {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+.footer-two p {
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 60px;
+}
+.footer-two nav a {
+  display: block;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 38px;
+  color: #848484;
+}
+footer hr {
+  background: #c4c4c4;
+  margin-top: 40px;
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+}
+.icons img {
+  margin: 25px;
 }
